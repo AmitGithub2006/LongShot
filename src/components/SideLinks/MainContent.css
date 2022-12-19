@@ -1,0 +1,110 @@
+.main {
+  background: rgb(176 173 173);;
+  width: 94vw;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.first_heading {
+  color: rgb(83, 82, 82);
+}
+
+.head {
+  color: rgb(83, 82, 82);
+}
+
+.number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+.possible {
+  display: block;
+  margin: 5px 0;
+  color: rgb(83, 82, 82);
+}
+
+.para {
+  color: rgb(83, 82, 82);
+}
+
+.main_heading {
+
+  margin: 20px 0 10px 0;
+}
+
+.shopping {
+  color: rgb(83, 82, 82);
+}
+
+.USA_flag {
+  height: 15px;
+  width: 30px;
+}
+
+.country {
+  color: rgb(83, 82, 82);
+}
+
+.section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.big_card {
+  background-color: #fff;
+  height: 250px;
+  width: 390px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.top {
+  padding-bottom: 20px;
+  border-bottom: 2px solid;
+}
+
+.first_small_card,
+.second_small_card,
+.third_small_card {
+  height: 76px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 0 10px 10px;
+  width: 390px;
+}
+
+.third_small_card {
+    display: flex;
+}
+
+.cpc {
+  width: 50%;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+  }
+
+.right_btn {
+    background-image: linear-gradient(to right, blue, blueviolet);
+}

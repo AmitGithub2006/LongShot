@@ -1,0 +1,86 @@
+.longshot_logo {
+    height: 60px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #fff;
+    color: rgb(83, 82, 82);
+    /* height: 100vh; */
+    transition: all 0.5s;
+    border-right: 3px solid grey;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.project {
+    font-size: 12px;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.link {
+    display: flex;
+    color: rgb(83, 82, 82);
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background-color: lightgrey;
+    color: rgb(83, 82, 82);
+    transition: all 0.5s;
+}
+
+.active {
+    background: lightgrey;
+    color: rgb(83, 82, 82);
+}
+
+.icon, .link_text {
+    font-size: 20px;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.bottom_section {
+    display: flex;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+.collapse {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.favorites_icon {
+    color: red;
+}
+
+.custom_icon {
+    color: rgb(39, 37, 37);
+}
+
+.semrush_icon {
+    color: orangered;
+}
